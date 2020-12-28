@@ -1,0 +1,12 @@
+set terminal png
+set datafile separator whitespace
+set autoscale
+
+set title "Timings"
+set output "timings.png"
+set xlabel "Threads"
+set ylabel "Time (Seconds)"
+
+unset key
+
+plot "timings.dat" using 2:1 with lines 

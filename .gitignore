@@ -1,0 +1,10 @@
+*.jpg
+*.png
+*.pdf
+*.aux
+*.log
+*.gz
+*.gif
+*.dat
+*.txt
+Comp521/*.tex
